@@ -8,7 +8,7 @@ body {
   fill: #666;
 }
 
-.body-mode {
+.body-invert-color {
   color: #bbb;
   background-color: #202124;
 }
@@ -27,7 +27,7 @@ b {
   color: #333;
 }
 
-.b-mode {
+.b-invert-color {
   color: #ddd
 }
  
@@ -45,12 +45,12 @@ a:hover {
   text-decoration: underline dotted;
 }
 
-.a-mode {
+.a-invert-color {
   color: #ddd;
   fill: #ddd;
 }
 
-.a-mode:hover {
+.a-invert-color:hover {
   color: #777;
   fill: #777;
 }
@@ -69,14 +69,14 @@ a:hover {
   gap: 12px;
 }
 
-.top-section { 
+.profile-section { 
   display: flex; 
   flex-direction: row; 
   gap: 32px; 
   align-items: center
 }
 
-.profile {
+.profile-pic {
   height: 240px; 
   width: 240px;
   border-radius: 20px;
@@ -104,7 +104,7 @@ strong {
   padding: 0 2px;
 }
 
-.strong-mode {
+.strong-invert-color {
   color: #ddd;
   background-color: #555;
 }
@@ -158,13 +158,13 @@ strong {
   fill: #fbfbfb;
 }
 
-.icon-mode {
+.icon-invert-color {
   background-color: #aaa;
   color: #202124;
   fill: #202124;
 }
 
-.icon-mode:hover {
+.icon-invert-color:hover {
   background-color: #777;
   color: #202124;
   fill: #202124;
@@ -244,21 +244,21 @@ strong {
     color: #bbb;
     background-color: #202124;
   }
-  .body-mode {
+  .body-invert-color {
     color: #666;
     background-color: #f9f9f9;
   }
   b {
     color: #ddd;
   }
-  .b-mode {
+  .b-invert-color {
     color: #333;
   }
   a {
     color: #ddd;
     fill: #ddd;
   }
-  .a-mode {
+  .a-invert-color {
     color: #333;
     fill: #333;
   }
@@ -266,7 +266,7 @@ strong {
     color: #777;
     fill: #777;
   }
-  .a-mode:hover {
+  .a-invert-color:hover {
     color: #aaa;
     fill: #aaa;
   }
@@ -274,18 +274,8 @@ strong {
     color: #ddd;
     background-color: #555;
   }
-  .strong-mode {
+  .strong-invert-color {
     color: #333;
-    background-color: #dfdfdf;
-  }
-  .award {
-    color: #ddd;
-    fill: #ddd;
-    background-color: #555;
-  }
-  .award-mode {
-    color: #333;
-    fill: #333;
     background-color: #dfdfdf;
   }
   .icon {
@@ -293,7 +283,7 @@ strong {
     fill: #202124;
     background-color: #aaa;
   }
-  .icon-mode {
+  .icon-invert-color {
     color: #fbfbfb;
     fill: #fbfbfb;
     background-color: #333;
@@ -303,7 +293,7 @@ strong {
     color: #202124;
     fill: #202124;
   }
-  .icon-mode:hover {
+  .icon-invert-color:hover {
     background-color: #aaa;
     color: #fbfbfb;
     fill: #fbfbfb;
