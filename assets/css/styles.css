@@ -180,6 +180,14 @@ strong {
   font-size: 2em;
 }
 
+.short {
+  display: none;
+}
+
+.long {
+  display: inline;
+}
+
 #load-overlay {
   position: fixed;
   top: 0;
@@ -191,13 +199,6 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.short {
-  display: none;
-}
-.long {
-  display: inline;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -240,16 +241,14 @@ strong {
   .top-section {
     display: block;
   }
+}
 
-  .paper-cont {
-    display: block;
+@media print, screen and (max-width: 730px) {
+  .short {
+    display: inline;
   }
-
-  .paper-img-cont {
-    position: relative;
-    padding-top: 56.25%;
-    width: 100%;
-    height: auto;
+  .long {
+    display: none;
   }
 }
 
@@ -321,14 +320,5 @@ strong {
     background-color: #aaa;
     color: #fbfbfb;
     fill: #fbfbfb;
-  }
-}
-
-@media (max-width: 730px) {
-  .short {
-    display: inline;
-  }
-  .long {
-    display: none;
   }
 }
