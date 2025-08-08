@@ -193,6 +193,13 @@ strong {
   align-items: center;
 }
 
+.short {
+  display: none;
+}
+.long {
+  display: inline;
+}
+
 @media print, screen and (max-width: 960px) {
   div.wrapper {
     width:auto;
@@ -314,5 +321,14 @@ strong {
     background-color: #aaa;
     color: #fbfbfb;
     fill: #fbfbfb;
+  }
+}
+
+@media (max-width: 730px) {
+  .short {
+    display: inline;
+  }
+  .long {
+    display: none;
   }
 }

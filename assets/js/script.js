@@ -29,7 +29,6 @@ function toggleMode() {
     sun.style.display = sunDisplay == "none" ? "inherit" : "none";
 }
 
-// if check prefered scheme
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     var moon = document.getElementById('mode-toggle-moon');
     moon.style.display = "inherit";
