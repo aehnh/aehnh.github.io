@@ -173,7 +173,7 @@ strong {
 .icon-container {
   display: flex;
   flex-direction: row;
-  gap: 4px;
+  gap: 6px;
 }
 
 .fa-2x {
