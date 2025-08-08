@@ -213,27 +213,7 @@ strong {
   }
 }
 
-@media print, screen and (max-width: 900px) {
-  .name-header {
-    display: block;
-  }
-
-  .contact {
-    margin-top: 8px;
-  }
-}
-
-@media print, screen and (max-width: 678px) {
-  .name-container {
-    display: block;
-  }
-  .name-header {
-    text-align: center;
-  }
-}
-
-
-@media print, screen and (max-width: 575px) {
+@media print, screen and (max-width: 730px) {
   body {
     padding:15px;
   }
@@ -241,9 +221,16 @@ strong {
   .top-section {
     display: block;
   }
-}
-
-@media print, screen and (max-width: 730px) {
+  .name-container {
+    display: block;
+  }
+  .name-header {
+    display: block;
+    text-align: center;
+  }
+  .contact {
+    margin-top: 8px;
+  }
   .short {
     display: inline;
   }
